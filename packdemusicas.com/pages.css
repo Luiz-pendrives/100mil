@@ -1,0 +1,3116 @@
+
+
+*{margin: 0; padding: 0;}
+
+html {
+  scroll-behavior: smooth;
+}   
+
+body {
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    background-color: #231538;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+    
+#over03 {
+  position:fixed;
+  top:0;
+  left:0;
+  background: linear-gradient(90deg, #1b0881 21px, transparent 1%) center, linear-gradient(#1b0881 21px, transparent 1%) center, #fff;
+    background-size: 22px 22px;
+  width:100%;
+  height:100%;
+  z-index:999999;
+}
+
+.inp03 {
+  width:550px;
+  margin:0px auto;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    margin-top: 145px;
+    text-align: center;
+    background-color:rgba(1, 17, 67, 0.8);
+    padding: 45px 0;
+    padding-bottom: 60px;
+}
+
+.con03 {
+  width:560px;
+  margin:30px auto;
+}
+    
+.label03 {
+  display:block;
+  padding:15px 15px 15px 0;
+  color: #fff;
+  font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}    
+
+#senha03 {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid #f1f1f1;
+    border-radius: 50px;
+    background: none;
+    color: #fff;
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 0px;
+    font-size: 30px;
+    transition: all .5s linear;
+}
+
+#senha03:hover, #senha03:focus, #concluir03:focus{
+    outline: 0;
+    transition: all .5s linear;
+    box-shadow: inset 0px 0px 10px #777;
+}
+
+.textointerno::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+    font-size: 22px;
+}
+
+#concluir03 {
+  width:60%;
+  margin: 0 auto;
+  background:#03f0fb;
+  color:#111;
+border: 2px solid #03f0fb;
+    border-radius: 50px;
+  font-size:20px;
+  font-weight:bold;
+  padding:15px 0;
+  cursor:pointer;
+    transition: 0.4s;
+}
+
+#concluir03:hover {
+    background:#02c5ce;
+    border: 2px solid #02c5ce;
+}
+
+.avisosenha03 {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    line-height: 21px;
+    background: #011963;
+}
+
+.secpretopo {
+    max-width: 100%;
+    background: #333;
+    padding: 10px 0;
+    border-bottom: 7px solid #03f0fb;
+    background: linear-gradient(-45deg, #111, #222, #444, #000);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+}
+
+.orgpretopo {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items:center;
+}
+
+.esqpretopo {
+    width: 100px;
+    margin: 0 auto;
+    text-align: right;
+    flex: 1 1 100px;
+}
+
+.centropretopo {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    flex: 1 1 700px;
+}
+
+.centropretopo h2 {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dirpretopo {
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: right;
+    flex: 1 1 150px;
+}
+
+.dirpretopo a {
+    text-decoration: none;
+}
+
+.logoff {
+    width: 150px;
+    height: 50px;
+    background-image: url(../packdemusicas.com.br/Imagens/logoff.png);
+    background-size: 100px, 40px;
+    background-repeat: no-repeat;
+    background-position: right, center;
+    transition: .4s;
+}
+
+.logoff:hover {
+    width: 150px;
+    height: 50px;
+    background-image: url(../packdemusicas.com.br/Imagens/logoff02.png);
+    background-size: 100px, 40px;
+    background-repeat: no-repeat;
+    background-position: right, center;
+    cursor: pointer;
+    opacity: .9;
+}
+
+
+.btnflutuante {
+    position: fixed;
+    float: right;
+    bottom: 100px;
+    right: -130px;
+    transition: .3s;
+}
+    
+.btnflutuante ul li {
+    margin: 8px auto;
+    text-decoration: none;
+    list-style-type: none;
+}   
+    
+.iconesdireita {
+    background: linear-gradient(-45deg, #022590, #03f0fb);
+    box-shadow: 1px 2px 3px #999;
+}
+    
+.iconesdireita:hover {
+    background: #03f0fb;
+}    
+    
+.capsula01 {
+   max-width: 1300px;
+    margin: 0 auto;
+}
+
+.menuajuda {
+    max-width: 1300px;
+    margin: 30px 0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.esqmenuajuda {
+    max-width: 1050px;
+    flex: 1 1 1050px;
+}  
+    
+.dirmenuajuda {
+    max-width: 250px;
+    margin: 0 auto;
+    flex: 1 1 250px;
+}  
+    
+.menuajuda a {
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    border-radius: 25px;
+    background: #4caf50;
+    text-decoration: none;
+    float: right;
+    transition: .4s;
+}
+
+.menuajuda a:hover {
+    background: #43a047 ;
+    cursor: pointer;
+}
+
+.capsulaconteudo {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    background-image: linear-gradient(#fff, #eee, #fff, #fff);
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.bannerdotopo {
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    background-image: url(../packdemusicas.com.br/Imagens/fundotopo.png);
+    border-radius: 25px 25px 0 0;
+}
+
+.localmusicas {
+    max-width: 100%;
+    padding: 0;
+    padding-bottom: 110px;
+}
+
+
+
+
+
+
+
+
+
+/* Style the tab */
+
+.orgorientacao {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.esqorientacao {
+    max-width: 470px;
+    height: 90px;
+    margin: 0 auto;
+    margin-left: 10px;
+    border-radius: 12px;
+    background: #0d1c2f;
+    box-shadow: 2px 3px 10px #ccc;
+    justify-content: center;
+  align-items: center;
+    flex: 1 1 470px;
+    display: flex;
+}
+
+.dirorientacao {
+    max-width: 580px;
+    height: 90px;
+    margin: 0 auto;
+    margin-left: 0;
+    background: #0d1c2f;
+    box-shadow: 2px 3px 10px #ccc;
+    border-radius: 12px;
+    justify-content: center;
+  align-items: center;
+    flex: 1 1 580px;
+    display: flex;
+}
+
+.numero {
+    width: 80px;
+    height: 90px;
+    margin: 0 auto;
+    margin-left: 0;
+    border-radius: 10px 0px 0px 10px;
+    background: #03f0fb;
+    background-image: linear-gradient(to right, #00efff, #00efff, #00f485);
+    color: #0d1c2f;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+    flex: 1 1 80px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.paragrafo01 {
+    max-width: 280px;
+    margin: 0 auto;
+    margin-left: 25px;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0;
+    flex: 1 1 280px;
+}
+
+.paragrafo02 {
+    max-width: 380px;
+    margin: 0 auto;
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0;
+    flex: 1 1 380px;
+}
+
+.painel {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.esqpainel {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-left: 20px;
+    flex: 1 1 450px;
+    display: flex;
+}
+
+.botoesesquerda01 {
+    max-width: 230px;
+    margin: 0 auto;
+    flex: 1 1 230px;
+}
+
+.btnmenu {
+    width: 210px;
+    line-height: 60px;
+    background: linear-gradient(-45deg, #0000d6, #1675eb);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 50px;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btnmenu:hover {
+    background: #03f0fb;
+    color: #000;
+}
+
+.btnmenu.active {
+    background: #03f0fb;
+    color: #000;
+}
+
+.conteudomusicasmobile {
+    display: none;
+}
+
+.dirpainel {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding: 10px 0;
+    text-align: center;
+    flex: 1 1 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dirpainel h2 {
+    width: 680px;
+    padding: 20px 0;
+    background: #0d1c2f;
+    background: linear-gradient(-45deg, #0d1c2f, #0d1c2f, #0d1c2f, #333, #0d1c2f, #0d1c2f);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+    margin-left: 30px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.box {
+    width: 680px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-top: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contdiv01 {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 19px;
+    margin-bottom: 20px;
+    background-image: url(../packdemusicas.com.br/Imagens/gif01.gif);
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 4px solid #f7f7f7;
+    font-weight: bold;
+    letter-spacing: 0px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease 0s;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contdiv02 {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 19px;
+    margin-bottom: 20px;
+    background-image: url(../packdemusicas.com.br/Imagens/gif02.gif);
+    background-position: center;
+    background-size: 200% 200%;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 4px solid #f7f7f7;
+    font-weight: bold;
+    letter-spacing: 0px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease 0s;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contdiv03 {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 19px;
+    margin-bottom: 20px;
+    background-image: url(../packdemusicas.com.br/Imagens/gif03.gif);
+    background-position: center;
+    background-size: 300% 300%;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 4px solid #f7f7f7;
+    font-weight: bold;
+    letter-spacing: 0px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease 0s;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contdiv04 {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 19px;
+    margin-bottom: 0;
+    background: linear-gradient(138deg, rgb(32, 201, 255) 36.7%, rgb(0, 8, 187) 84.4%, rgb(255, 255, 255) 119.7%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .5s;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    border-radius: 10px;
+    border: 4px solid #f7f7f7;
+    font-weight: black;
+    letter-spacing: 0;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease 0s;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botaonovo {
+    width: 50px;
+    height: 20px;
+    background: linear-gradient(124deg, #00ff00, #00ffff, #00ff00);
+    background-size: 600% 600%;
+    animation: rainbow 4s ease infinite;
+    position: relative;
+    top: -102px;
+    left: -68px;
+    color: #333;
+    font-weight: 900;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-family: 'arial', sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #999;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 82%; transform: scale(1.1); font-size: 12px;}
+    50%{background-position:100% 19%; transform: scale(1); font-size: 12px;}
+    100%{background-position:0% 82%; transform: scale(1.1); font-size: 12px;}
+}
+
+
+.contdiv01:hover, .contdiv02:hover, .contdiv03:hover {
+    color: #fff;
+    text-decoration: none;
+    border: 4px solid #00ffff;
+    transform: translateY(-7px);
+    opacity: .9;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.contdiv04:hover {
+    color: #fff;
+    text-decoration: none;
+    border: 4px solid #00ffff;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    background-position: 0 0;
+}
+    
+.box a {text-decoration: none;}
+
+.box a:hover {text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+.orglocalmusicas {
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.esqlocalmusicas {
+    width: 1200px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    display: none;
+    flex-wrap: wrap;
+}
+
+
+.itemesquerda {
+    width: 190px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    flex: 1 1 200px;
+}
+
+.itemesquerda a {
+    width: 200px;
+    margin: 0 5px;
+    margin-bottom: 5px;
+    padding: 20px 0px;
+    
+    background: linear-gradient(-45deg, #8442c3, #5a00b0, #3838fc, #1675eb);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.itemesquerda a:hover {
+    background: #03f0fb;
+    color: #333;
+    font-weight: 700;
+}
+
+.itemesquerda a abbr {
+    position: relative;
+    text-decoration: none;
+}   
+    
+.legenda [data-tooltip] {
+    width: 600px;
+}    
+    
+[data-tooltip] {
+    width: 300px;
+  position: relative;
+  font-weight: bold;
+  
+}
+
+[data-tooltip]:after {
+  width: 300px;
+  padding: 5px 10px;
+  display: none;
+  position: absolute;
+  top: 65px;
+  border-radius: 3px;
+  left: 15px;
+  content: attr(data-tooltip);
+  white-space: wrap;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  line-height: 18px;
+    text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 1px 1px 3px #999;    
+  z-index: 999;
+  animation: entradalegenda 0.6s alternate;
+}
+
+@keyframes entradalegenda {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+[data-tooltip]:hover:after {
+  width: 200px;
+    padding: 12px;
+    border-radius: 7px;
+  display: block;
+    z-index: 10;
+}  
+
+
+#mostrar{
+  display: none;
+}
+
+#passar_mouse:hover #mostrar{
+    width: 200px;
+    position: relative;
+    left: 250px;
+    top: -50px;
+    background: #ccc;
+    display:block;
+
+}
+
+
+.extendedmobile {
+   display: none;
+}
+
+.extended {
+    padding: 80px 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.topoextended {
+    width: 1300px;
+    height: 700px;
+    background-image: url(../packdemusicas.com.br/Imagens/Bannerextended.png);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.legendaextended {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 30px 80px;
+    padding-top: 15px;
+    background: #100b23;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+.conteudoextended {
+  width: 1130px;
+  margin: 0 auto;
+  padding: 75px 0;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.esqcont {
+  width: 250px;
+  margin: 0 auto;
+  flex: 1 1 250px;
+}
+
+.esqcont button {
+  width: 250px;
+  height: 65px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  color: #fff;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background: #1919e6;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .4s;
+}
+
+.esqcont button:hover {
+  width: 250px;
+  height: 65px;
+  color: #000;
+  border-radius: 50px;
+  font-weight: 500;
+  margin-left: 5px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  background: #00ffff;
+  cursor: pointer;
+}
+
+/* Create an active/current "tab button" class */
+.esqcont button.active {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: #000;
+  background-color: #00ffff;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.dircont {
+  width: 880px;
+  margin: 0 auto;
+  flex: 1 1 880px;
+}
+
+/* Style the tab content */
+.tabcontent01 {
+  width: 840px;
+  float: right;
+  background: #fff;
+  color: #333;
+  margin-top: 0;
+  padding-bottom: 45px;
+  border-radius: 12px;
+  box-shadow: 4px 3px 15px #ccc;
+  margin-left: 0px;
+  animation: opacidade .8s;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@keyframes opacidade {
+  from {margin-top: -7px;}
+  to {margin-top: 0px;}
+}
+
+.tabcontent01 h3 {
+    width: 840px;
+    margin-bottom: 15px;
+    padding: 25px 0;
+    background: #0d1c2f;
+    background: linear-gradient(-45deg, #0d1c2f, #0d1c2f, #0d1c2f, #333, #0d1c2f, #0d1c2f);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 12px 12px 0 0;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.conteudodireita {
+  width: 800px;
+  margin: 0 auto;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudodireita a {
+  width: auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+.cardextended {
+  width: 210px;
+  margin: 30px 25px;
+  margin-bottom: 5px;
+  padding: 30px 0;
+  padding-bottom: 0;
+  background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzBrYmNoaHJucDFnZHI1bWQwbmppdzI3aTcxNGFkYmhyaWxqemJuZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xGrjBxxEBvWTBtkAk4/giphy.gif);
+  background-size: 150% 100%;
+  background-position: center;
+  font-family: 'roboto', sans-serif;
+  border-radius: 25px;
+  border: 4px solid #fff;
+  transition: .4s;
+  flex: 1 1 200px;
+}
+
+.cardextended:hover {
+  border: 4px solid #00ffff;
+  transform: translateY(-7px);
+    opacity: .9;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.cardextended span {
+  margin-bottom: 10px;
+  font-size: 120px;
+  color: #fff;
+}
+
+.cardextended p {
+  width: 200px;
+  margin: 0 auto;
+  padding: 16px 10px;
+  font-size: 19px;
+  line-height: 22px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: rgba(7, 7, 50, 0.6);
+  color: #fff;
+  border-radius: 0 0 23px 23px;
+}
+
+
+
+
+
+.areadosbonus {
+    max-width: 100%;
+    padding: 140px 0;
+    background-image: url(../packdemusicas.com.br/Imagens/bgbonus.png);
+}
+
+.areadosbonus h1 {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.areadosbonus h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.titulobonus {
+    color: #ff0000; font-family: 'roboto'; font-size: 78px; letter-spacing: -4px; font-weight: black;
+}
+
+.orgdosbonus {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bonus01, .bonus07, .bonus09 {
+    width: 360px;
+    height: 675px;
+    margin: 5px 10px;
+    margin-top: 75px;
+    background-color:rgba(51, 51, 51, 0.5);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 360px;
+}
+
+.bonus01 h2, .bonus02 h2, .bonus03 h2, .bonus04 h2, .bonus05 h2, .bonus06 h2, .bonus07 h2, .bonus08 h2, .bonus09 h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bonus02, .bonus03, .bonus04, .bonus05, .bonus06, .bonus08 {
+    width: 360px;
+    height: 770px;
+    margin: 5px 10px;
+    margin-top: 75px;
+    background-color:rgba(51, 51, 51, 0.5);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 360px;
+}
+
+.circulonumeral {
+    position: relative;
+    left: 0;
+    top: -30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 13px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.posteres {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster01.png);
+    margin: 0 auto;
+}
+
+.posteres02 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster02.png);
+    margin: 0 auto;
+}
+
+.posteres03 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster03.png);
+    margin: 0 auto;
+}
+
+.posteres04 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster04.png);
+    margin: 0 auto;
+}
+
+.posteres05 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster05.png);
+    margin: 0 auto;
+}
+
+.posteres06 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster06.png);
+    margin: 0 auto;
+}
+
+.posteres07 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster07.png);
+    margin: 0 auto;
+}
+
+.posteres08 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster08.png);
+    margin: 0 auto;
+}
+
+.posteres09 {
+    width: 340px;
+    height: 440px;
+    background-image: url(../baixar/Imagens/Poster10.png);
+    margin: 0 auto;
+}
+
+.btnbonus {
+    margin-top: 10px;
+}
+
+.btnbonus button {
+    width: 90%;
+    margin-top: 5px;
+    padding: 25px 0;
+    background: linear-gradient(-45deg, #8442c3, #5a00b0, #3838fc, #1675eb);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btnbonus button:hover {
+    background: #03f4ff;
+    color: #000;
+    font-weight: bold;
+}
+
+.ajuda {
+    background: #fff;
+    padding: 90px 0;
+    border-radius: 0 0 30px 30px;
+}
+
+.ajuda h1 {
+    padding-bottom: 25px;
+    font-size: 72px;
+    color: #333;
+    font-family: 'roboto', serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.ajuda h3 {
+    width: 550px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    font-size: 24px;
+    line-height: 27px;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.orgcentralajuda {
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f7f7f7;
+    padding: 30px 0;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont01 {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 45px;
+    flex: 1 1 350px;
+}
+
+.cont01 button {
+    width: 280px;
+    margin-top: 5px;
+    padding: 20px 0;
+    background: #4caf50;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.cont01 button:hover {
+    background: #43a047 ;
+    cursor: pointer;
+}
+
+.voltaraotopo {
+    max-width: 400px;
+    height: 70px;
+    line-height: 70px;
+    margin: 65px auto;
+    text-align: center;
+    display: flex;
+}
+
+.voltaraotopo a {
+    margin: 0 auto;
+    padding: 0 60px;
+    text-decoration: none;
+    background: linear-gradient(-45deg, #8442c3, #5a00b0, #3838fc, #1675eb);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 35px;
+}
+
+.voltaraotopo a:hover {
+    background: #03f4ff;
+    color: #000;
+    font-weight: bold;
+} 
+
+footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 45px 0;
+    padding-top: 55px;
+    background: linear-gradient(-45deg, #002037, #002132, #002135, #002037);
+    border-top: 6px solid #03f0fb;
+    border-radius: 25px 25px 0 0;
+    animation: gradient 4s ease infinite;
+}  
+    
+.menusfooter {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}  
+
+.logofooter {
+    max-width: 150px;
+    height: 60px;
+    background-image: url(../www.packdemusicas.com.br/Imagens/logo02.png);
+    background-size: 150px, 60px;
+    flex: 1 1 150px;
+}
+    
+.esqmenufooter {
+    max-width: 240px;
+    margin: 0 auto;
+    padding-left: 15px;
+    flex: 1 1 240px;
+}  
+    
+.esqmenufooter ul li {
+    padding: 2px 0;
+}    
+    
+.esqmenufooter ul li a {
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+    color: #f7f7f7;
+    text-decoration: underline;
+    transition: .4s;
+} 
+    
+.esqmenufooter ul li a:hover {
+    color: #00f0fc;
+}
+    
+.centromenufooter {    
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: left;
+    flex: 1 1 350px;
+} 
+    
+.centromenufooter h2 {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}    
+    
+.centromenufooter img {
+    width: 60px;
+    margin: 0 10px;
+}    
+    
+.dirmenufooter {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    flex: 1 1 300px;
+} 
+    
+.dirmenufooter h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 5px;
+}    
+    
+.dirmenufooter ul li {
+    font-size: 21px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    color: #f7f7f7;
+    text-decoration: none;
+    padding: 3px 0;
+}  
+    
+
+    
+@media screen and (min-width: 1600px) {
+
+.btnflutuante {
+    width: 50px;
+    height: 60px;
+    position: fixed;
+    float: right;
+    bottom: 350px;
+    right: 60px;
+    transition: .3s;
+}    
+    
+}     
+    
+    
+    
+    
+  
+@media screen and (min-width: 1500px) {
+
+.btnflutuante {
+    width: 50px;
+    height: 60px;
+    position: fixed;
+    float: right;
+    bottom: 350px;
+    margin-right: 20px;
+    transition: .3s;
+}    
+    
+}    
+    
+    
+    
+    
+@media screen and (max-width: 1310px) {
+        
+.capsula01 {
+   max-width: 95%;
+    margin: 0 auto;
+}
+    
+.menuajuda {
+    max-width: 1200px;
+    margin: 30px 0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.esqmenuajuda {
+    max-width: 900px;
+    flex: 1 1 900px;
+}  
+    
+.dirmenuajuda {
+    max-width: 300px;
+    margin: 0 auto;
+    flex: 1 1 300px;
+}      
+    
+.capsulaconteudo {
+    max-width: 100%;    
+}    
+    
+.localmusicas {
+    max-width: 99%;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-bottom: 110px;
+} 
+
+
+    
+.astrounauta {
+    width: 560px;
+    height: 560px;
+    background-image: url(../packdemusicas.com.br/Imagens/astronauta.png);
+    background-size: 560px 560px;
+    background-repeat: no-repeat;
+} 
+}  
+    
+ 
+@media only screen and (max-width: 500px){
+    
+#over03 {
+  position:fixed;
+  top:0;
+  left:0;
+  background: linear-gradient(90deg, #1b0881 21px, transparent 1%) center, linear-gradient(#1b0881 21px, transparent 1%) center, #ccc;
+    background-size: 22px 22px;
+  width:100%;
+  height:100%;
+  z-index:999999;
+}       
+  
+.inp03 {
+  width:300px;
+  margin:0px auto;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    margin-top: 50px;
+    text-align: center;
+    background-color:rgba(1, 17, 67, 0.8);
+    padding: 45px 0;
+    padding-bottom: 60px;
+}
+
+.con03 {
+  width:560px;
+  margin:30px auto;
+}
+    
+.label03 {
+    width: 100%;
+    margin-left: 10px;
+    text-align: center;
+  display:block;
+  padding:15px 15px 15px 0;
+  color: #fff;
+  font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}    
+
+#senha03 {
+    width: 85%;
+    margin: 0 auto;
+    border: 2px solid #f1f1f1;
+    border-radius: 50px;
+    background: none;
+    color: #fff;
+    padding: 5px 0;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 0px;
+    font-size: 36px;
+    transition: all .5s linear;
+}
+
+#senha03:hover, #senha03:focus, #concluir03:focus{
+    outline: 0;
+    transition: all .5s linear;
+    box-shadow: inset 0px 0px 10px #777;
+}
+
+.textointerno::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+    font-size: 18px;
+}
+
+#concluir03 {
+  width:85%;
+  margin: 0 auto;
+  background:#03f0fb;
+  color:#111;
+border: 2px solid #03f0fb;
+    border-radius: 50px;
+  font-size:20px;
+  font-weight:bold;
+  padding:15px 0;
+  cursor:pointer;
+    transition: 0.4s;
+}
+
+#concluir03:hover {
+    background:#02c5ce;
+    border: 2px solid #02c5ce;
+}
+
+.avisosenha03 {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    line-height: 21px;
+    background: #011963;
+}        
+    
+.secpretopo {
+    max-width: 100%;
+    background: #333;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    border-bottom: 7px solid #03f0fb;
+    background: linear-gradient(-45deg, #111, #222, #444, #000);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+}
+
+.orgpretopo {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items:center;
+}
+
+.esqpretopo {
+    max-width: 200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.centropretopo {
+    display: none;
+}
+
+.dirpretopo {
+    display: none;
+}  
+    
+.menuajuda {
+    max-width: 100%;
+    margin: 30px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    display: none;
+} 
+
+.btnflutuante {
+    display: none;
+}    
+    
+.capsulaconteudo {
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(#fff, #eee, #fff, #fff);
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #ccc;
+}    
+    
+.bannerdotopo {
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../packdemusicas.com.br/Imagens/fundotopo_-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px 25px 0 0;
+}        
+
+.localmusicas {
+    max-width: 100%;
+    height: 500px;
+    padding-bottom: 0;
+    padding-top: 0px;
+    margin-bottom: 60px;
+}
+
+.orglocalmusicas {
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.conteudomusicas {
+    display: none;
+}
+
+
+.conteudomusicasmobile {
+    max-width: 100%;
+    padding: 30px 0;
+    background: #f1f1f1;
+    display: block;
+}
+
+.conteudomusicasmobile p {
+    max-width: 85%;
+    margin: 20px auto;
+    margin-top: -5px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0;
+    background: #f9f9f9;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.orgconteudomusicasmobile01 {
+    width: 340px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 15px;
+    padding-left: 30px;
+    background: #fff;
+    box-shadow: 2px 3px 5px #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.pack01 {
+    width: 250px;
+    height: 3140px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack02 {
+    width: 250px;
+    height: 3200px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack03 {
+    width: 250px;
+    height: 3370px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack04 {
+    width: 250px;
+    height: 1130px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack05 {
+    width: 250px;
+    height: 2150px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack06 {
+    width: 250px;
+    height: 2860px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack07 {
+    width: 250px;
+    height: 680px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack08 {
+    width: 250px;
+    height: 3075px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack09 {
+    width: 250px;
+    height: 3780px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack10 {
+    width: 250px;
+    height: 2730px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack11 {
+    width: 250px;
+    height: 2475px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack12 {
+    width: 250px;
+    height: 2820px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack13 {
+    width: 250px;
+    height: 555px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack14 {
+    width: 250px;
+    height: 2020px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack15 {
+    width: 250px;
+    height: 1700px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack16 {
+    width: 250px;
+    height: 2025px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack17 {
+    width: 250px;
+    height: 1730px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack18 {
+    width: 250px;
+    height: 1580px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack19 {
+    width: 250px;
+    height: 1640px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack19 {
+    width: 250px;
+    height: 1640px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack20 {
+    width: 250px;
+    height: 2025px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack21 {
+    width: 250px;
+    height: 2025px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack22 {
+    width: 250px;
+    height: 610px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack23 {
+    width: 250px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack24 {
+    width: 250px;
+    height: 1255px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack25 {
+    width: 250px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack26 {
+    width: 250px;
+    height: 1130px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack27 {
+    width: 250px;
+    height: 680px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack28 {
+    width: 250px;
+    height: 1540px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack29 {
+    width: 250px;
+    height: 1900px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack30 {
+    width: 250px;
+    height: 2280px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack31 {
+    width: 250px;
+    height: 680px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack32 {
+    width: 250px;
+    height: 1385px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack33 {
+    width: 250px;
+    height: 1640px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack34 {
+    width: 250px;
+    height: 3250px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack36 {
+    width: 250px;
+    height: 3140px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack37 {
+    width: 250px;
+    height: 1710px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack38 {
+    width: 250px;
+    height: 1900px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack39 {
+    width: 250px;
+    height: 1855px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack39a {
+    width: 250px;
+    height: 3300px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack40 {
+    width: 250px;
+    height: 680px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack41 {
+    width: 250px;
+    height: 680px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack42 {
+    width: 250px;
+    height: 1515px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack43 {
+    width: 250px;
+    height: 1640px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack44 {
+    width: 250px;
+    height: 2350px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack45 {
+    width: 250px;
+    height: 550px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack46 {
+    width: 250px;
+    height: 550px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack47 {
+    width: 250px;
+    height: 485px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack48 {
+    width: 250px;
+    height: 680px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack49 {
+    width: 250px;
+    height: 1770px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack50 {
+    width: 250px;
+    height: 1580px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack51 {
+    width: 250px;
+    height: 3110px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack52 {
+    width: 250px;
+    height: 2150px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack53 {
+    width: 250px;
+    height: 2660px;
+    margin: 0 auto;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 2px 3px 5px #ccc;
+    flex: 1 1 250px;
+}
+
+.pack01 h2, .pack02 h2, .pack03 h2, .pack04 h2, .pack05 h2, .pack05 h2, .pack06 h2, .pack07 h2, .pack08 h2, .pack09 h2, .pack10 h2, .pack11 h2, .pack12 h2, .pack13 h2, .pack14 h2, .pack15 h2, .pack16 h2, .pack17 h2, .pack18 h2, .pack19 h2, .pack20 h2, .pack21 h2, .pack22 h2, .pack23 h2, .pack24 h2, .pack25 h2, .pack26 h2, .pack27 h2, .pack28 h2, .pack29 h2, .pack30 h2, .pack31 h2, .pack32 h2, .pack33 h2, .pack34 h2, .pack36 h2, .pack37 h2, .pack38 h2, .pack39 h2, .pack39a h2, .pack40 h2, .pack41 h2, .pack42 h2, .pack43 h2, .pack44 h2, .pack45 h2, .pack46 h2, .pack47 h2, .pack48 h2, .pack49 h2, .pack50 h2, .pack51 h2, .pack52 h2, .pack53 h2 {
+    width: 250px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    padding: 18px 0;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: url(../packdemusicas.com.br/Imagens/bgtitulo.png);
+    letter-spacing: 0;
+}
+
+.pack01 a, .pack02 a, .pack03 a, .pack04 a, .pack05 a, .pack05 a, .pack06 a, .pack07 a, .pack08 a, .pack09 a, .pack10 a, .pack11 a, .pack12 a, .pack13 a, .pack14 a, .pack15 a, .pack16 a, .pack17 a, .pack18 a, .pack19 a, .pack20 a, .pack21 a, .pack22 a, .pack23 a, .pack24 a, .pack25 a, .pack26 a, .pack27 a, .pack28 a, .pack29 a, .pack30 a, .pack31 a, .pack32 a, .pack33 a, .pack34 a, .pack36 a, .pack37 a, .pack38 a, .pack39 a, .pack39a a, .pack40 a, .pack41 a, .pack42 a, .pack43 a, .pack44 a, .pack45 a, .pack46 a, .pack47 a, .pack48 a, .pack49 a, .pack50 a, .pack51 a, .pack52 a, .pack53 a {
+    text-decoration: none;
+}
+
+.contdiv01, .contdiv02, .contdiv03 {
+    width: 210px;
+    height: 60px;
+    margin: 4px auto;
+    margin-bottom: 0;
+    padding: 10px 5px;
+    background: linear-gradient(-45deg, #8442c3, #5a00b0, #3838fc, #1675eb);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contdiv04 {
+    width: 210px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 0;
+    padding: 20px 5px;
+    background: #00ffff;
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    color: #000;
+    font-weight: 900;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botaonovo {
+    width: 30px;
+    height: 10px;
+    background: linear-gradient(124deg, #00ff00, #00ffff, #00ff00);
+    background-size: 600% 600%;
+    animation: rainbow 4s ease infinite;
+    position: relative;
+    top: -88px;
+    left: -85px;
+    color: #333;
+    font-weight: 900;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-family: 'arial', sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #999;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 82%; transform: scale(1.1); font-size: 10px;}
+    50%{background-position:100% 19%; transform: scale(1); font-size: 10px;}
+    100%{background-position:0% 82%; transform: scale(1.1); font-size: 10px;}
+}
+
+
+.contdiv01:hover, .contdiv02:hover, .contdiv03:hover, .contdiv04:hover {
+    color: #fff;
+    opacity: .9;
+    text-decoration: none;
+    border: 4px solid #00ffff;
+    transform: none;
+    opacity: .9;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+
+
+#passar_mouse:hover #mostrar{
+  display: block;
+}   
+
+
+[data-tooltip]:after {
+  width: 300px;
+  padding: 5px 10px;
+  display: none;
+  position: absolute;
+  top: 25px;
+  border-radius: 3px;
+  left: 15px;
+  content: attr(data-tooltip);
+  white-space: wrap;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+    text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 1px 1px 3px #999;    
+  z-index: 999;
+  animation: entradalegenda 0.6s alternate;
+}
+
+
+
+
+
+    
+.areadj {
+    max-width: 100%;
+    padding-top: 0;
+    margin-top: -20px;
+}   
+    
+.orgareadj02 {
+    display: none;
+}    
+
+.localmusicas02 {
+    width: 95%;
+    display: flex;
+    margin-top: -45px;
+}    
+      
+.extended {
+    background: linear-gradient(to bottom right, #fff, #cfe4f7, #bddcff, #fff);
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.topoextended {
+    max-width: 100%;
+    height: 500px;
+    background-image: url(../packdemusicas.com.br/Imagens/Bannerextended_mobile.png);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.legendaextended {
+    width: 100%;
+    padding: 30px 15px;
+    padding-top: 15px;
+    background: #100b23;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.conteudoextended {
+    display: none;
+}
+
+
+
+.extendedmobile {
+   width: 100%;
+  padding: 20px 0;
+  padding-bottom: 45px;
+  background: linear-gradient(to bottom right, #fff, #ebf1f7, #f7f7f7, #fff);
+  display: block;
+}
+
+.aviso01 {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    background: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ccc;
+}
+
+.orgconteudoextended {
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 30px 10px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 10px #ccc;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.tabcontent02 {
+  width: 259px;
+  height: 1220px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent03 {
+  width: 259px;
+  height: 1140px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent04 {
+  width: 259px;
+  height: 845px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent05 {
+  width: 259px;
+  height: 1070px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent06 {
+  width: 259px;
+  height: 1070px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent07 {
+  width: 259px;
+  height: 770px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent08 {
+  width: 259px;
+  height: 770px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent09 {
+  width: 259px;
+  height: 1330px;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  border-radius: 25px 25px 10px 10px;
+  margin: 0 15px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 5px #ccc;
+  background: #eee;
+  flex: 1 1 259px;
+}
+
+.tabcontent02 h3, .tabcontent03 h3, .tabcontent04 h3, .tabcontent05 h3, .tabcontent06 h3, .tabcontent07 h3, .tabcontent08 h3, .tabcontent09 h3 {
+  width: 260px;
+  margin: 0 auto;
+  margin-left: -20px;
+  padding: 25px 0;
+  border-radius: 25px 25px 0 0;
+  background: #333;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'roboto', sans-serif;
+  background-image: url(../packdemusicas.com.br/Imagens/bgtitulo.png);
+}
+
+.tabcontent02 a, .tabcontent03 a, .tabcontent04 a, .tabcontent05 a, .tabcontent06 a, .tabcontent07 a, .tabcontent08 a, .tabcontent09 a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.conteudodireita02 {
+  margin-top: 20px;
+}
+
+.cardextended02 {
+    width: 220px;
+  margin: 10px 0;
+  background: linear-gradient(-45deg, #8442c3, #5a00b0, #3838fc, #1675eb);
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'roboto', sans-serif;
+}
+
+.cardextended02:hover {
+    background: #00ffff;
+    color: #333;
+    font-weight: 900;
+}
+
+
+
+.cardextended02 span {
+  display: none;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+    
+
+.areadosbonus {
+    max-width: 100%;
+    padding: 70px 0;
+    background-image: url(../packdemusicas.com.br/Imagens/bgbonus.png);
+}
+
+.areadosbonus h1 {
+    width: 80%;
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.areadosbonus h3 {
+    width: 85%;
+    margin: 0 auto;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background: #ff0000;
+    padding: 10px 0;
+}
+    
+.titulobonus {
+    color: #ff0000;
+    font-family: 'roboto';
+    font-weight: black;
+    font-size: 48px;
+    letter-spacing: -1px;    
+}
+
+.orgdosbonus {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bonus01 {
+    width: 320px;
+    height: 560px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus02 {
+    width: 320px;
+    height: 680px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus03 {
+    width: 320px;
+    height: 710px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus04 {
+    width: 320px;
+    height: 680px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus05 {
+    width: 320px;
+    height: 645px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus06 {
+    width: 320px;
+    height: 680px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus07 {
+    width: 320px;
+    height: 570px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus08 {
+    width: 320px;
+    height: 680px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+
+.bonus09 {
+    width: 320px;
+    height: 570px;
+    margin: 0 20px;
+    margin-top: 60px;
+    background-color:rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    flex: 1 1 320px;
+}
+    
+.posteres {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster01_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres02 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster02_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres03 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster03_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres04 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster04_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres05 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster05_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres06 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster06_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres07 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster07_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres08 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster08_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.posteres09 {
+    width: 280px;
+    height: 340px;
+    background-image: url(../packdemusicas.com.br/Imagens/Poster10_mobile.png);
+    background-position: center;
+    margin: 0 auto;
+}    
+
+.bonus01 h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btnbonus {
+    margin-top: 10px;
+}
+
+.btnbonus button {
+    width: 90%;
+    padding: 20px 0;
+    background: linear-gradient(-45deg, #8442c3, #5a00b0, #3838fc, #1675eb);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btnbonus button:hover {
+    background: #03f4ff;
+    color: #000;
+    font-weight: bold;
+}
+
+.ajuda {
+    background: #fff;
+    padding: 90px 0;
+    padding-bottom: 0;
+    border-radius: 0 0 30px 30px;
+}
+
+.ajuda h1 {
+    padding-bottom: 20px;
+    font-size: 44px;
+    line-height: 48px;
+    color: #333;
+    font-family: 'roboto', serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.ajuda h3 {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.orgcentralajuda {
+    width: 100%;
+    margin: 0 auto;
+    background: #f7f7f7;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont01 {
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    flex: 1 1 280px;
+}
+
+.cont01 button {
+    width: 280px;
+    padding: 20px 0;
+    background: #4caf50;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.cont01 button:hover {
+    background: #43a047;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}    
+    
+.menusfooter {
+    max-width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}   
+
+.logofooter {
+    max-width: 150px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    background-image: url(../www.packdemusicas.com.br/Imagens/logo02.png);
+    background-size: 150px, 60px;
+    flex: 1 1 150px;
+}
+    
+.centromenufooter {    
+    max-width: 350px;
+    margin: 40px auto;
+    flex: 1 1 350px;
+}    
+    
+.dirmenufooter ul li {
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    color: #f7f7f7;
+    text-decoration: none;
+    padding: 3px 0;
+}   
+}
+
+
+    
+    
